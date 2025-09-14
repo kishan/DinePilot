@@ -1,57 +1,58 @@
-# React + TypeScript + Vite
+# DinePilot — Realtime Performance Dashboard for Restaurants GMs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+“An adaptive cockpit for restaurant GMs that delivers real-time insights and AI-driven actions to boost margins, efficiency, and guest satisfaction.”
 
-Currently, two official plugins are available:
+(built as part of VibeCoding Hackathon)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⸻
 
-## Expanding the ESLint configuration
+## 🌟 Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Running a restaurant is one of the toughest jobs in the world. Margins are thin, data is fragmented, and decisions are often made too late. DinePilot changes that.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+DinePilot provides a real-time performance scorecard for General Managers, directly integrated with Toast POS. It continuously tracks sales, margins, and guest satisfaction, then uses AI recommendations to suggest actions that can immediately boost profitability.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This is not just another static dashboard. It’s an adaptive, real-time cockpit that helps GMs react in the moment — not after the shift is over.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+<img width="948" height="807" alt="dashboard" src="https://github.com/user-attachments/assets/75d30db3-a444-44c3-89e9-8ac459454f72" />
 
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+
+⸻
+
+## ✅ Core Features
+- Toast Integration
+  - Seamlessly ingests live data streams for sales, menu categories, and transactions.
+- AI Recommendations
+  - Detects underperformance and generates simple, high-impact actions like bundles, discounts, or channel shifts — complete with estimated margin impact.
+- Real-Time KPIs
+  - Instant visibility into total sales, average ticket size, gross margin %, and guest satisfaction.
+- Category Performance View
+  - Color-coded breakdown of top categories (Sandwiches, Coffee, Desserts, Fries, Drinks) with clear signals of where to focus.
+- Action & Feedback Loop
+  - Apply recommendations instantly and see projected before/after impact in real time.
+
+⸻
+
+## 🚀 Future Vision
+
+- Sales optimization is only the beginning. Our roadmap expands into a multi-stream, adaptive GM cockpit:
+- Labor Management: dynamic staffing recommendations during peak and lull periods.
+- Inventory & Waste: live alerts for waste or shortages tied to margin impact.
+- Guest Sentiment: real-time integration of reviews, surveys, and delivery feedback.
+- External Signals: weather, events, and traffic forecasts to shape proactive decisions.
+
+The long-term vision: a single adaptive platform for every controllable factor in restaurant operations.
+
+⸻
+
+🔧 Tech Snapshot
+- POS Integration: Toast
+- AI Layer: OpenAI-powered recommendation engine
+- Front-End: Modern web app (React-based) for intuitive, immersive dashboards
+- Back-End: Real-time data pipelines + API services for analytics and recommendations
+
+⸻
+
+🙌 Team
+
+DinePilot is built by Team DinePilot — passionate about giving restaurant operators the tools to succeed in the hardest industry in the world.
