@@ -4,6 +4,8 @@
 
 (built as part of VibeCoding Hackathon)
 
+Presentation Slides: https://gamma.app/docs/fkn18rafl7bki6b?following_id=k227cjkfhotapg1&follow_on_start=true
+
 ⸻
 
 ## 🌟 Overview
